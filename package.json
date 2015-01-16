@@ -1,0 +1,30 @@
+{
+  "name": "common-password",
+  "version": "0.1.0",
+  "description": "Checks if given password appears on a list of most popular passwords.",
+  "main": "./lib/common-password.js",
+  "scripts": {
+    "postinstall": "node ./lib/generate-json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meehow/common-password.git"
+  },
+  "keywords": [
+    "password",
+    "security"
+  ],
+  "author": {
+    "name": "Michał Adamski",
+    "email": "meehow808@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meehow/common-password/issues"
+  },
+  "homepage": "https://github.com/meehow/common-password",
+  "dependencies": {
+    "buffer-crc32": "^0.2.5"
+  }
+}
