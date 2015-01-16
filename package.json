@@ -1,6 +1,6 @@
 {
   "name": "common-password",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks if given password appears on a list of most popular passwords.",
   "main": "./lib/common-password.js",
   "scripts": {
