@@ -1,7 +1,7 @@
 {
   "name": "common-password",
-  "version": "0.1.1",
-  "description": "Checks if given password appears on a list of most popular passwords.",
+  "version": "0.1.2",
+  "description": "Checks if given password is popular.",
   "main": "./lib/common-password.js",
   "scripts": {
     "postinstall": "node ./lib/generate-json.js",
